@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar sticky */
+
+.navbar.sticky {
+    background: #212529 !important;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #212529 !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0 !important;
+}
+
+.fa-bars {
+    height: 30px !important;
+    color: #198754 !important;
+}
+
+.nav-link:hover {
+    color: #198754 !important;
+    transition: all 1s ease-out;
+}
+
+/* Portfolio */
+
+.porftolio-item img:hover {
+   opacity: 0.5 !important;
+   transition: all 0.5s ease-out;
+}
